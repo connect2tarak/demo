@@ -1,0 +1,630 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="cssjs/bootstrap.min.css">
+  <link rel="stylesheet" href="cssjs/simple-sidebar.css">
+  <link rel="stylesheet" href="cssjs/simple-chart.css">
+  <link rel="stylesheet" href="cssjs/dataTables.bootstrap4.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="cssjs/jquery.min.js"></script>
+  <script type="text/javascript" src="cssjs/bootstrap.min.js"></script>
+
+
+  <script type="text/javascript" src="cssjs/chart.min.js"></script>
+  <script type="text/javascript" src="cssjs/linear.js"></script>
+  <script type="text/javascript" src="cssjs/util.js"></script>
+  <script type="text/javascript" src="cssjs/popper.min.js"></script>
+
+  <script type="text/javascript" src="cssjs/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="cssjs/dataTables.bootstrap4.min.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class=" border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Start Bootstrap </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action border-0">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action border-0">Shortcuts</a>
+        <a href="#" class="list-group-item list-group-item-action border-0">Overview</a>
+        <a href="#" class="list-group-item list-group-item-action border-0">Events</a>
+        <a href="#" class="list-group-item list-group-item-action border-0">Profile</a>
+        <a href="#" class="list-group-item list-group-item-action border-0 disabled">Status</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+
+
+
+      <nav class="navbar navbar-expand-lg navbar-light  border-bottom">
+        <button class="btn btn-secondary" id="menu-toggle">&#9776;&nbsp;Menu</button>&nbsp;&nbsp;
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+       
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <a href="index.html" class="navbar-brand d-inline-flex">Design</a>
+          <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="pages.html" class="nav-link text-uppercase">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="style.html" class="nav-link text-uppercase">Style</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DOCS</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+      </nav>
+
+      <br>
+
+      <div class="container-fluid">
+        <!---Main item--------------->
+
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+              <div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h6 class="card-title text-uppercase text-muted mb-0">Total traffic</h6>
+                      <span class="h6 font-weight-bold mb-0">350,897</span>
+                    </div>
+                    <div class="col-auto">
+                      <div>
+                        <i class="fa fa-home"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <span class="text-success"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                    <span class="text-nowrap">Since last month</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h6 class="card-title text-uppercase text-muted mb-0">New users</h6>
+                      <span class="h6 font-weight-bold mb-0">2,356</span>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fa fa-envelope-o"></i>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <span class="text-danger"><i class="fa fa-arrow-down"></i> 3.48%</span>
+                    <span class="text-nowrap">Since last month</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h6 class="card-title text-uppercase text-muted mb-0">Sales</h6>
+                      <span class="h6 font-weight-bold mb-0">924</span>
+                    </div>
+                    <div class="col-auto">
+                      <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
+                        <i class="fa fa-money-coins"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <span class="text-success"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                    <span class="text-nowrap">Since last month</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h6 class="card-title text-uppercase text-muted mb-0">Performance</h6>
+                      <span class="h6 font-weight-bold mb-0">49,65%</span>
+                    </div>
+                    <div class="col-auto">
+                      <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
+                        <i class="ni ni-chart-bar-32"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <span class="text-success"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                    <span class="text-nowrap">Since last month</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+</div>
+
+ <br>
+<div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                              <h2>Reports</h2>
+                              <canvas id="myChart" width="500" height="300"></canvas>
+                            </div>
+
+
+
+              <div class="col-sm-12 col-lg-6">
+                                  <div id="canvas-holder" style="width: 300px;">
+    <canvas id="chart-area" width="260" height="260"></canvas>
+    
+  </div>
+    
+
+
+
+</div>
+
+
+
+
+</div>
+
+<br>
+
+<div class="row">
+
+  <table id="mftable" class="table table-hover table-bordered table-sm" cellspacing="0" width="100%">
+<thead>
+<tr>
+  <th>Serial</th>
+  <th>Fund Name</th>
+  <th>Invested Amount</th>
+  <th>Fund Value</th>
+  <th>Absolute Return</th>
+  <th>Action</th>
+  <th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+
+<!--Place HTML Data here--->
+
+
+<tr>
+  <td>1</td>
+  <td>Aditya Birla Sun Life Equity Growth Direct Plan</td>
+  <td>100</td>
+  <td>86</td>
+  <td>
+    <span class="text-danger">
+      -14
+      <i class="fa fa-arrow-down"></i> 
+    </span>
+  </td>
+  <td></td>
+  <td>In Loss</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>DSP Equity Growth Direct Plan</td>
+  <td>15500</td>
+  <td>15881</td>
+  <td>
+    <span class="text-success">
+      381
+      <i class="fa fa-arrow-up"></i> 
+    </span>
+  </td>
+  <td></td>
+  <td></td>
+</tr>
+<tr><td>3</td><td>ICICI Prudential Bluechip Growth Direct Plan</td><td>100</td><td>84</td><td>-16</td><td></td><td>In Loss</td></tr>
+<tr><td>4</td><td>Indiabulls Blue Chip Growth Direct Plan</td><td>500</td><td>425</td><td>-75</td><td></td><td>In Loss</td></tr>
+<tr><td>5</td><td>Mirae Asset Tax Saver Growth Direct Plan</td><td>30000</td><td>23466</td><td>-6534</td><td></td><td>In Loss</td></tr>
+<tr><td>6</td><td>Motilal Oswal Focused 25 Growth Direct Plan</td><td>30500</td><td>25157</td><td>-5343</td><td></td><td>In Loss</td></tr>
+<tr><td>7</td><td>Motilal Oswal Multicap 35 Growth Direct Plan</td><td>500</td><td>416</td><td>-84</td><td></td><td>In Loss</td></tr>
+<tr><td>8</td><td>Nippon India Balanced Advantage Growth Direct Plan</td><td>100</td><td>92</td><td>-8</td><td></td><td>In Loss</td></tr>
+<tr><td>9</td><td>Nippon India Large Cap Growth Direct Plan</td><td>100</td><td>80</td><td>-20</td><td></td><td>In Loss</td></tr>
+<tr><td>10</td><td>Nippon India Liquid Growth Direct Plan</td><td>5000</td><td>5033</td><td>33</td><td></td><td></td></tr>
+<tr><td>11</td><td>Nippon India Money Market Growth Direct Plan</td><td>9000</td><td>9099</td><td>99</td><td></td><td></td></tr>
+<tr><td>12</td><td>Nippon India US Equity Opportunites Growth Direct Plan</td><td>35000</td><td>34890</td><td>-110</td><td></td><td>In Loss</td></tr>
+<tr><td>13</td><td>Nippon India Value Growth Direct Plan</td><td>500</td><td>413</td><td>-87</td><td></td><td>In Loss</td></tr>
+<tr><td>14</td><td>SBI Banking & Financial Services Growth Direct Plan</td><td>6000</td><td>4525</td><td>-1475</td><td>REDEEM</td><td>In Loss</td></tr>
+<tr><td>15</td><td>Tata Digital India Growth Direct Plan</td><td>622</td><td>568</td><td>-54</td><td>REDEEM</td><td>In Loss</td></tr>
+
+
+<!--End Table Data--->
+
+</tbody>
+</table>        
+  
+
+</div>
+
+<div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                                <div class="card-hover-shadow-2x mb-3 card">
+                                    <div class="card-header-tab card-header">
+                                        <div class="card-header-title font-size-lg text-capitalize font-weight-normal">
+                                            <i class="header-icon lnr-database icon-gradient bg-malibu-beach"> </i>Task List
+                                        </div>
+                                    </div>
+                                    <div class="scroll-area-lg">
+                                        <div class="scrollbar-container">
+                                            <div class="p-2">
+                                                <ul class="todo-list-wrapper list-group list-group-flush">
+                                                    <li class="list-group-item">
+                                                        <div class="todo-indicator bg-warning"></div>
+                                                        <div class="widget-content p-0">
+                                                            <div class="widget-content-wrapper">
+                                                                <div class="widget-content-left">
+                                                                    <div class="widget-heading">Wash the car
+                                                                    </div>
+                                                                    <div class="widget-subheading"><i>Written by Bob</i></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <div class="todo-indicator bg-warning"></div>
+                                                        <div class="widget-content p-0">
+                                                            <div class="widget-content-wrapper">
+                                                                <div class="widget-content-left">
+                                                                    <div class="widget-heading">Wash the car
+                                                                    </div>
+                                                                    <div class="widget-subheading"><i>Written by Bob</i></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>                                                    <li class="list-group-item">
+                                                        <div class="todo-indicator bg-warning"></div>
+                                                        <div class="widget-content p-0">
+                                                            <div class="widget-content-wrapper">
+                                                                <div class="widget-content-left">
+                                                                    <div class="widget-heading">Wash the car
+                                                                    </div>
+                                                                    <div class="widget-subheading"><i>Written by Bob</i></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>                                                    <li class="list-group-item">
+                                                        <div class="todo-indicator bg-warning"></div>
+                                                        <div class="widget-content p-0">
+                                                            <div class="widget-content-wrapper">
+                                                                <div class="widget-content-left">
+                                                                    <div class="widget-heading">Wash the car
+                                                                    </div>
+                                                                    <div class="widget-subheading"><i>Written by Bob</i></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>                                                    <li class="list-group-item">
+                                                        <div class="todo-indicator bg-warning"></div>
+                                                        <div class="widget-content p-0">
+                                                            <div class="widget-content-wrapper">
+                                                                <div class="widget-content-left">
+                                                                    <div class="widget-heading">Wash the car
+                                                                    </div>
+                                                                    <div class="widget-subheading"><i>Written by Bob</i></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-block text-right card-footer">
+                                        <button class="mr-2 btn btn-link btn-sm">Cancel</button>
+                                        <button class="btn btn-primary">Add Task</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+
+
+<hr class="featurette-divider">
+
+<footer class="container">
+    <p>
+        &copy; 2020 Company, Inc. &vert;
+        <a href="#">Privacy</a> &vert;
+        <a href="#">Terms</a> &vert;
+        <a href="#">FAQ</a>
+
+    </p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Menu Toggle Script -->
+    <script type="text/javascript">
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+
+
+    Chart.defaults.global.tooltips.custom = function(tooltip) {
+      // Tooltip Element
+      var tooltipEl = document.getElementById('chartjs-tooltip');
+
+      // Hide if no tooltip
+      if (tooltip.opacity === 0) {
+        tooltipEl.style.opacity = 0;
+        return;
+      }
+
+      // Set caret Position
+      tooltipEl.classList.remove('above', 'below', 'no-transform');
+      if (tooltip.yAlign) {
+        tooltipEl.classList.add(tooltip.yAlign);
+      } else {
+        tooltipEl.classList.add('no-transform');
+      }
+
+      function getBody(bodyItem) {
+        return bodyItem.lines;
+      }
+
+      // Set Text
+      if (tooltip.body) {
+        var titleLines = tooltip.title || [];
+        var bodyLines = tooltip.body.map(getBody);
+
+        var innerHtml = '<thead>';
+
+        titleLines.forEach(function(title) {
+          innerHtml += '<tr><th>' + title + '</th></tr>';
+        });
+        innerHtml += '</thead><tbody>';
+
+        bodyLines.forEach(function(body, i) {
+          var colors = tooltip.labelColors[i];
+          var style = 'background:' + colors.backgroundColor;
+          style += '; border-color:' + colors.borderColor;
+          style += '; border-width: 2px';
+          var span = '<span class="chartjs-tooltip-key" style="' + style + '"></span>';
+          innerHtml += '<tr><td>' + span + body + '</td></tr>';
+        });
+        innerHtml += '</tbody>';
+
+        var tableRoot = tooltipEl.querySelector('table');
+        tableRoot.innerHTML = innerHtml;
+      }
+
+      var positionY = this._chart.canvas.offsetTop;
+      var positionX = this._chart.canvas.offsetLeft;
+
+      // Display, position, and set styles for font
+      tooltipEl.style.opacity = 1;
+      tooltipEl.style.left = positionX + tooltip.caretX + 'px';
+      tooltipEl.style.top = positionY + tooltip.caretY + 'px';
+      tooltipEl.style.fontFamily = tooltip._bodyFontFamily;
+      tooltipEl.style.fontSize = tooltip.bodyFontSize;
+      tooltipEl.style.fontStyle = tooltip._bodyFontStyle;
+      tooltipEl.style.padding = tooltip.yPadding + 'px ' + tooltip.xPadding + 'px';
+    };
+
+    var config = {
+      type: 'pie',
+      data: {
+        datasets: [{
+          data: [300, 50, 100, 40, 10],
+          backgroundColor: [
+            window.chartColors.red,
+            window.chartColors.orange,
+            window.chartColors.yellow,
+            window.chartColors.green,
+            window.chartColors.blue,
+          ],
+        }],
+        labels: [
+          'Red',
+          'Orange',
+          'Yellow',
+          'Green',
+          'Blue'
+        ]
+      },
+      options: {
+        responsive: true,
+        legend: {
+          display: false
+        },
+        tooltips: {
+          enabled: false,
+        }
+      }
+    };
+
+
+var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    var color = Chart.helpers.color;
+    var barChartData = {
+      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+      datasets: [{
+        label: 'Dataset 1',
+        backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+        borderColor: window.chartColors.red,
+        borderWidth: 1,
+        data: [
+          randomScalingFactor(),
+          randomScalingFactor(),
+          randomScalingFactor(),
+          randomScalingFactor(),
+          randomScalingFactor(),
+          randomScalingFactor(),
+          randomScalingFactor()
+        ]
+      }, {
+        label: 'Dataset 2',
+        backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+        borderColor: window.chartColors.blue,
+        borderWidth: 1,
+        data: [
+          randomScalingFactor(),
+          randomScalingFactor(),
+          randomScalingFactor(),
+          randomScalingFactor(),
+          randomScalingFactor(),
+          randomScalingFactor(),
+          randomScalingFactor()
+        ]
+      }]
+
+    };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    window.onload = function() {
+      var ctx = document.getElementById('chart-area').getContext('2d');
+      window.myPie = new Chart(ctx, config);
+    };
+  </script>
+
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+$('#stocktable').DataTable({
+"order": [[ 3, "desc" ]]
+});
+$('.dataTables_length').addClass('bs-select');
+});
+
+$(document).ready(function () {
+$('#mftable').DataTable({
+"order": [[ 3, "desc" ]]
+});
+$('.dataTables_length').addClass('bs-select');
+});
+
+
+
+</script>
+
+<script>
+    var ctx = document.getElementById("myChart").getContext("2d");
+    var chart = new Chart(ctx, {
+      // The type of chart we want to create
+      type: "line",
+    
+      // The data for our dataset
+      data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        datasets: [
+          {
+            label: "My First dataset",
+            backgroundColor: "rgb(255, 99, 132)",
+            borderColor: "rgb(255, 99, 132)",
+            data: [0, 10, 5, 2, 20, 30, 45]
+          }
+        ]
+      },
+    
+      // Configuration options go here
+      options: {
+        responsive:false,
+        maintainAspectRatio: false
+      }
+    });
+  </script>
+
+
+
+
+
+</body>
+
+</html>
